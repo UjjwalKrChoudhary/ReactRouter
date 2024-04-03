@@ -29,7 +29,7 @@ import Home from './components/Home/Home.jsx'
 //   }
 // ]);
 
-const router = createBrowserRouter(
+const router = createBrowserRouter( 
   createRoutesFromElements(
     <Route path ='/' element={<Layot/>}>
       <Route path='' element={<Home/>}/>
